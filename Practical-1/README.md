@@ -16,7 +16,7 @@ Practical-1 project: preparing an e-commerce customer dataset for machine learni
 ---
 
 ## 📑 Table of Contents
-[Overview](#-overview) · [Problem Statement](#-problem-statement) · [Dataset](#-dataset) · [Workflow](#-workflow) · [Visual Results](#-visual-results) · [Key Insights](#-key-insights) · [Repo Structure](#-repository-structure) · [Author]
+[Overview](#-overview) · [Problem Statement](#-problem-statement) · [Dataset](#-dataset) · [Workflow](#-workflow) · [Visual Results](#-visual-results) · [Key Insights](#-key-insights) · [Repo Structure](#-repository-structure) · [Author](#-author)
 
 ---
 
