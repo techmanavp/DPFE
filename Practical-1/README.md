@@ -133,12 +133,14 @@ Practical-1/
 
 ---
 
+<a id="author"></a>
+
 <div align="center">
 
-## 👨‍💻 Author
+## 👤 Author
 
 **Manav Patel**
 📧 manavpatel.tech@gmail.com
-🔗 [GitHub](https://github.com/techmanavp) 
+🔗 [GitHub](https://github.com/techmanavp)
 
 </div>
