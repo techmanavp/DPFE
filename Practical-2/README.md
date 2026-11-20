@@ -54,9 +54,7 @@ Practical-2/
 │   ├── generate_dataset.py                                    ← creates the raw dataset
 │   └── build_reports.py                                       ← creates the HTML / PDF reports
 ├── Report/
-│   ├── cleaned_profiling_report.html                          ← data-profiling report
-│   ├── Brief_Report.pdf                                       ← Task 7 brief report
-│   └── Theory_Concepts.pdf                                    ← definitions of all concepts used
+│   ├── cleaned_profiling_report.html                          ← data-profiling report                              
 ├── Visualization/        01 … 14 PNG charts (missingness, imputation, outliers, before/after, models)
 ├── requirements.txt
 └── README.md
