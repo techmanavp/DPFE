@@ -1,0 +1,10 @@
+field_name,data_type,description,missingness_or_outliers
+patient_id,String,Unique identifier for each patient,"No missing, no outliers"
+age,Integer,Age of the patient (years),~6% missing
+gender,Categorical,Male / Female,~5% missing
+region,Categorical,North / South / East / West,~5% missing
+bmi,Float,Body Mass Index (kg/m^2),~8% missing + very high/low outliers
+blood_pressure,Float,Average systolic blood pressure (mmHg),Extreme high outliers
+cholesterol,Float,Cholesterol level (mg/dL),~7% missing + extreme low/high outliers
+glucose,Float,Fasting glucose level (mg/dL),~7% missing + very high spikes
+disease_risk,Binary Int,"Target: 0 = Low risk, 1 = High risk","No missing, used as target"
