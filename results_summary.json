@@ -1,0 +1,452 @@
+{
+  "raw_shape": [
+    500,
+    9
+  ],
+  "final_shape": [
+    500,
+    9
+  ],
+  "ml_shape": [
+    500,
+    18
+  ],
+  "missing_summary": [
+    {
+      "column": "bmi",
+      "dtype": "float64",
+      "missing_count": 40,
+      "missing_%": 8.0
+    },
+    {
+      "column": "glucose",
+      "dtype": "float64",
+      "missing_count": 35,
+      "missing_%": 7.0
+    },
+    {
+      "column": "cholesterol",
+      "dtype": "float64",
+      "missing_count": 35,
+      "missing_%": 7.0
+    },
+    {
+      "column": "age",
+      "dtype": "float64",
+      "missing_count": 30,
+      "missing_%": 6.0
+    },
+    {
+      "column": "region",
+      "dtype": "str",
+      "missing_count": 25,
+      "missing_%": 5.0
+    },
+    {
+      "column": "gender",
+      "dtype": "str",
+      "missing_count": 25,
+      "missing_%": 5.0
+    },
+    {
+      "column": "patient_id",
+      "dtype": "str",
+      "missing_count": 0,
+      "missing_%": 0.0
+    },
+    {
+      "column": "blood_pressure",
+      "dtype": "float64",
+      "missing_count": 0,
+      "missing_%": 0.0
+    },
+    {
+      "column": "disease_risk",
+      "dtype": "int64",
+      "missing_count": 0,
+      "missing_%": 0.0
+    }
+  ],
+  "total_missing_cells": 190,
+  "rows_with_missing": 164,
+  "imputation_results": [
+    {
+      "method": "Mean + Most-frequent",
+      "age_RMSE": 13.3579,
+      "age_NRMSE": 0.9338,
+      "bmi_RMSE": 3.7818,
+      "bmi_NRMSE": 0.9068,
+      "cholesterol_RMSE": 41.901,
+      "cholesterol_NRMSE": 1.2919,
+      "glucose_RMSE": 16.316,
+      "glucose_NRMSE": 1.376,
+      "gender_acc": 0.6,
+      "region_acc": 0.32,
+      "avg_NRMSE": 1.1271,
+      "avg_cat_accuracy": 0.46,
+      "bmi_imputed_std": 0.0
+    },
+    {
+      "method": "Median + Most-frequent",
+      "age_RMSE": 13.3579,
+      "age_NRMSE": 0.9338,
+      "bmi_RMSE": 3.7608,
+      "bmi_NRMSE": 0.9017,
+      "cholesterol_RMSE": 40.6231,
+      "cholesterol_NRMSE": 1.2525,
+      "glucose_RMSE": 12.0283,
+      "glucose_NRMSE": 1.0144,
+      "gender_acc": 0.6,
+      "region_acc": 0.32,
+      "avg_NRMSE": 1.0256,
+      "avg_cat_accuracy": 0.46,
+      "bmi_imputed_std": 0.0
+    },
+    {
+      "method": "Missing-indicator + Random sample",
+      "age_RMSE": 21.9317,
+      "age_NRMSE": 1.5332,
+      "bmi_RMSE": 6.7514,
+      "bmi_NRMSE": 1.6188,
+      "cholesterol_RMSE": 76.0313,
+      "cholesterol_NRMSE": 2.3443,
+      "glucose_RMSE": 18.1786,
+      "glucose_NRMSE": 1.533,
+      "gender_acc": 0.4,
+      "region_acc": 0.2,
+      "avg_NRMSE": 1.7573,
+      "avg_cat_accuracy": 0.3,
+      "bmi_imputed_std": 6.8061
+    },
+    {
+      "method": "KNN (k=5)",
+      "age_RMSE": 11.5629,
+      "age_NRMSE": 0.8083,
+      "bmi_RMSE": 4.2302,
+      "bmi_NRMSE": 1.0143,
+      "cholesterol_RMSE": 51.6155,
+      "cholesterol_NRMSE": 1.5915,
+      "glucose_RMSE": 33.189,
+      "glucose_NRMSE": 2.7989,
+      "gender_acc": 0.56,
+      "region_acc": 0.08,
+      "avg_NRMSE": 1.5532,
+      "avg_cat_accuracy": 0.32,
+      "bmi_imputed_std": 3.7989
+    },
+    {
+      "method": "MICE (Bayesian Ridge)",
+      "age_RMSE": 14.215,
+      "age_NRMSE": 0.9937,
+      "bmi_RMSE": 3.5564,
+      "bmi_NRMSE": 0.8527,
+      "cholesterol_RMSE": 36.4389,
+      "cholesterol_NRMSE": 1.1235,
+      "glucose_RMSE": 15.4733,
+      "glucose_NRMSE": 1.3049,
+      "gender_acc": 0.64,
+      "region_acc": 0.32,
+      "avg_NRMSE": 1.0687,
+      "avg_cat_accuracy": 0.48,
+      "bmi_imputed_std": 1.1307
+    }
+  ],
+  "best_num": "Median + Most-frequent",
+  "best_cat": "MICE (Bayesian Ridge)",
+  "best_num2": "MICE (Bayesian Ridge)",
+  "imp_after_flag": [
+    {
+      "method": "Mean + Most-frequent",
+      "age_NRMSE": 0.9338,
+      "bmi_NRMSE": 0.8281,
+      "cholesterol_NRMSE": 1.2975,
+      "glucose_NRMSE": 1.0993,
+      "blood_pressure_NRMSE": 1.9731,
+      "avg_NRMSE": 1.2264,
+      "gender_acc": 0.6,
+      "region_acc": 0.32,
+      "avg_cat_accuracy": 0.46
+    },
+    {
+      "method": "Median + Most-frequent",
+      "age_NRMSE": 0.9338,
+      "bmi_NRMSE": 0.8297,
+      "cholesterol_NRMSE": 1.2989,
+      "glucose_NRMSE": 1.1023,
+      "blood_pressure_NRMSE": 1.9683,
+      "avg_NRMSE": 1.2266,
+      "gender_acc": 0.6,
+      "region_acc": 0.32,
+      "avg_cat_accuracy": 0.46
+    },
+    {
+      "method": "KNN (k=5)",
+      "age_NRMSE": 0.9128,
+      "bmi_NRMSE": 0.8657,
+      "cholesterol_NRMSE": 1.2817,
+      "glucose_NRMSE": 0.992,
+      "blood_pressure_NRMSE": 1.5775,
+      "avg_NRMSE": 1.1259,
+      "gender_acc": 0.56,
+      "region_acc": 0.16,
+      "avg_cat_accuracy": 0.36
+    },
+    {
+      "method": "MICE (Bayesian Ridge)",
+      "age_NRMSE": 0.7337,
+      "bmi_NRMSE": 0.7903,
+      "cholesterol_NRMSE": 1.1315,
+      "glucose_NRMSE": 0.7382,
+      "blood_pressure_NRMSE": 1.4993,
+      "avg_NRMSE": 0.9786,
+      "gender_acc": 0.68,
+      "region_acc": 0.32,
+      "avg_cat_accuracy": 0.5
+    }
+  ],
+  "detection_counts": [
+    {
+      "column": "bmi",
+      "Z-score (|z|>3)": 7,
+      "Modified Z (MAD>3.5)": 12,
+      "IQR (1.5 x IQR)": 15,
+      "Percentile (<1% or >99%)": 10,
+      "Winsorize 5% (values changed)": 50,
+      "TRUE injected outliers": 13
+    },
+    {
+      "column": "blood_pressure",
+      "Z-score (|z|>3)": 12,
+      "Modified Z (MAD>3.5)": 12,
+      "IQR (1.5 x IQR)": 22,
+      "Percentile (<1% or >99%)": 10,
+      "Winsorize 5% (values changed)": 49,
+      "TRUE injected outliers": 12
+    },
+    {
+      "column": "cholesterol",
+      "Z-score (|z|>3)": 8,
+      "Modified Z (MAD>3.5)": 13,
+      "IQR (1.5 x IQR)": 14,
+      "Percentile (<1% or >99%)": 10,
+      "Winsorize 5% (values changed)": 50,
+      "TRUE injected outliers": 13
+    },
+    {
+      "column": "glucose",
+      "Z-score (|z|>3)": 12,
+      "Modified Z (MAD>3.5)": 12,
+      "IQR (1.5 x IQR)": 13,
+      "Percentile (<1% or >99%)": 10,
+      "Winsorize 5% (values changed)": 50,
+      "TRUE injected outliers": 12
+    }
+  ],
+  "shape_table": [
+    {
+      "treatment": "No treatment",
+      "rows": 500,
+      "columns": 9,
+      "rows lost": 0,
+      "data loss %": 0.0
+    },
+    {
+      "treatment": "Z-score removal (|z|>3)",
+      "rows": 462,
+      "columns": 9,
+      "rows lost": 38,
+      "data loss %": 7.6
+    },
+    {
+      "treatment": "IQR removal (1.5xIQR)",
+      "rows": 438,
+      "columns": 9,
+      "rows lost": 62,
+      "data loss %": 12.4
+    },
+    {
+      "treatment": "Percentile cap (1%-99%)",
+      "rows": 500,
+      "columns": 9,
+      "rows lost": 0,
+      "data loss %": 0.0
+    },
+    {
+      "treatment": "Winsorization (5%)",
+      "rows": 500,
+      "columns": 9,
+      "rows lost": 0,
+      "data loss %": 0.0
+    },
+    {
+      "treatment": "IQR capping (1.5xIQR)",
+      "rows": 500,
+      "columns": 9,
+      "rows lost": 0,
+      "data loss %": 0.0
+    }
+  ],
+  "outlier_eval": [
+    {
+      "treatment": "No treatment",
+      "rows_kept": 500,
+      "data_loss_%": 0.0,
+      "NRMSE_vs_truth": 2.1282,
+      "cells_outside_true_range": 50,
+      "avg_|skew|": 4.2661,
+      "cv_AUC": 0.8332,
+      "cv_AUC_std": 0.0395
+    },
+    {
+      "treatment": "Z-score removal (|z|>3)",
+      "rows_kept": 462,
+      "data_loss_%": 7.6,
+      "NRMSE_vs_truth": 0.316,
+      "cells_outside_true_range": 11,
+      "avg_|skew|": 0.2878,
+      "cv_AUC": 0.8839,
+      "cv_AUC_std": 0.035
+    },
+    {
+      "treatment": "IQR removal (1.5xIQR)",
+      "rows_kept": 438,
+      "data_loss_%": 12.4,
+      "NRMSE_vs_truth": 0.2208,
+      "cells_outside_true_range": 0,
+      "avg_|skew|": 0.0765,
+      "cv_AUC": 0.8727,
+      "cv_AUC_std": 0.027
+    },
+    {
+      "treatment": "Percentile cap (1%-99%)",
+      "rows_kept": 500,
+      "data_loss_%": 0.0,
+      "NRMSE_vs_truth": 1.9401,
+      "cells_outside_true_range": 50,
+      "avg_|skew|": 3.7811,
+      "cv_AUC": 0.8392,
+      "cv_AUC_std": 0.0393
+    },
+    {
+      "treatment": "Winsorization (5%)",
+      "rows_kept": 500,
+      "data_loss_%": 0.0,
+      "NRMSE_vs_truth": 0.4044,
+      "cells_outside_true_range": 0,
+      "avg_|skew|": 0.1053,
+      "cv_AUC": 0.875,
+      "cv_AUC_std": 0.0365
+    },
+    {
+      "treatment": "IQR capping (1.5xIQR)",
+      "rows_kept": 500,
+      "data_loss_%": 0.0,
+      "NRMSE_vs_truth": 0.4771,
+      "cells_outside_true_range": 11,
+      "avg_|skew|": 0.1025,
+      "cv_AUC": 0.87,
+      "cv_AUC_std": 0.0374
+    }
+  ],
+  "cap_name": "Winsorization (5%)",
+  "pipeline_eval": [
+    {
+      "pipeline": "Baseline (mean impute, no outlier handling)",
+      "NRMSE_vs_truth_all_cells": 1.7503,
+      "cells_outside_true_range": 50,
+      "missing_cells": 0,
+      "cv_AUC": 0.8327,
+      "cv_AUC_std": 0.0396
+    },
+    {
+      "pipeline": "A. Impute -> Cap",
+      "NRMSE_vs_truth_all_cells": 0.3693,
+      "cells_outside_true_range": 0,
+      "missing_cells": 0,
+      "cv_AUC": 0.875,
+      "cv_AUC_std": 0.0365
+    },
+    {
+      "pipeline": "B. Flag outliers -> Impute",
+      "NRMSE_vs_truth_all_cells": 0.2662,
+      "cells_outside_true_range": 0,
+      "missing_cells": 0,
+      "cv_AUC": 0.8754,
+      "cv_AUC_std": 0.039
+    },
+    {
+      "pipeline": "C. Cap -> Impute",
+      "NRMSE_vs_truth_all_cells": 0.3708,
+      "cells_outside_true_range": 0,
+      "missing_cells": 0,
+      "cv_AUC": 0.8751,
+      "cv_AUC_std": 0.0365
+    }
+  ],
+  "best_pipeline": "B. Flag outliers -> Impute",
+  "model_table": [
+    {
+      "model": "Logistic Regression",
+      "metric": "AUC",
+      "Baseline": 0.8306,
+      "Cleaned": 0.8742,
+      "Improvement": 0.0435
+    },
+    {
+      "model": "Logistic Regression",
+      "metric": "Accuracy",
+      "Baseline": 0.7407,
+      "Cleaned": 0.7927,
+      "Improvement": 0.052
+    },
+    {
+      "model": "Random Forest",
+      "metric": "AUC",
+      "Baseline": 0.854,
+      "Cleaned": 0.8623,
+      "Improvement": 0.0083
+    },
+    {
+      "model": "Random Forest",
+      "metric": "Accuracy",
+      "Baseline": 0.768,
+      "Cleaned": 0.7847,
+      "Improvement": 0.0167
+    }
+  ],
+  "scorecard": {
+    "RAW (as received)": {
+      "rows": "500",
+      "missing cells": "190",
+      "cells outside true range": "50",
+      "avg |skewness| (4 cols)": "4.27",
+      "max glucose": "499.0",
+      "max cholesterol": "618.3",
+      "max blood pressure": "265.4",
+      "BMI range": "8.7 - 70.7",
+      "NRMSE vs truth": "1.748"
+    },
+    "BASELINE (mean impute)": {
+      "rows": "500",
+      "missing cells": "0",
+      "cells outside true range": "50",
+      "avg |skewness| (4 cols)": "4.26",
+      "max glucose": "499.0",
+      "max cholesterol": "618.3",
+      "max blood pressure": "265.4",
+      "BMI range": "8.7 - 70.7",
+      "NRMSE vs truth": "1.75"
+    },
+    "FINAL (cleaned)": {
+      "rows": "500",
+      "missing cells": "0",
+      "cells outside true range": "0",
+      "avg |skewness| (4 cols)": "0.04",
+      "max glucose": "120.1",
+      "max cholesterol": "283.5",
+      "max blood pressure": "149.1",
+      "BMI range": "16.5 - 38.1",
+      "NRMSE vs truth": "0.266"
+    }
+  }
+}

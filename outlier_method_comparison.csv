@@ -1,0 +1,7 @@
+treatment,rows_kept,data_loss_%,NRMSE_vs_truth,cells_outside_true_range,avg_|skew|,cv_AUC,cv_AUC_std
+No treatment,500,0.0,2.1282,50,4.2661,0.8332,0.0395
+Z-score removal (|z|>3),462,7.6,0.316,11,0.2878,0.8839,0.035
+IQR removal (1.5xIQR),438,12.4,0.2208,0,0.0765,0.8727,0.027
+Percentile cap (1%-99%),500,0.0,1.9401,50,3.7811,0.8392,0.0393
+Winsorization (5%),500,0.0,0.4044,0,0.1053,0.875,0.0365
+IQR capping (1.5xIQR),500,0.0,0.4771,11,0.1025,0.87,0.0374

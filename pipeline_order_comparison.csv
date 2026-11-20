@@ -1,0 +1,5 @@
+pipeline,NRMSE_vs_truth_all_cells,cells_outside_true_range,missing_cells,cv_AUC,cv_AUC_std
+"Baseline (mean impute, no outlier handling)",1.7503,50,0,0.8327,0.0396
+A. Impute -> Cap,0.3693,0,0,0.875,0.0365
+B. Flag outliers -> Impute,0.2662,0,0,0.8754,0.039
+C. Cap -> Impute,0.3708,0,0,0.8751,0.0365

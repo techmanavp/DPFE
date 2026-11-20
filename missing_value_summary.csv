@@ -1,0 +1,10 @@
+,dtype,missing_count,missing_%
+bmi,float64,40,8.0
+glucose,float64,35,7.0
+cholesterol,float64,35,7.0
+age,float64,30,6.0
+region,str,25,5.0
+gender,str,25,5.0
+patient_id,str,0,0.0
+blood_pressure,float64,0,0.0
+disease_risk,int64,0,0.0
