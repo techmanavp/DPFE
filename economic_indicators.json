@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "source": "dummy-economic-api",
+  "data": [
+    {
+      "region": "North",
+      "inflation_rate": 5.4,
+      "unemployment_rate": 7.1,
+      "gdp_growth": 6.2
+    },
+    {
+      "region": "South",
+      "inflation_rate": 4.8,
+      "unemployment_rate": 5.9,
+      "gdp_growth": 7.1
+    },
+    {
+      "region": "East",
+      "inflation_rate": 6.1,
+      "unemployment_rate": 8.4,
+      "gdp_growth": 5.3
+    },
+    {
+      "region": "West",
+      "inflation_rate": 5.0,
+      "unemployment_rate": 6.3,
+      "gdp_growth": 6.8
+    }
+  ]
+}
