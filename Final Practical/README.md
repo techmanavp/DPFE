@@ -30,8 +30,6 @@
 - [📊 Key Results](#-key-results)
 - [📈 Visualizations](#-visualizations)
 - [🧰 Tech Stack](#-tech-stack)
-- [✅ Task Coverage](#-task-coverage)
-- [📸 Screenshots](#-screenshots)
 
 ---
 
@@ -218,45 +216,6 @@ Univariate ROC-AUC against `default_flag` (higher separation = better):
 | Visualization | Matplotlib, Seaborn |
 | Profiling | ydata-profiling (pandas-profiling) |
 | Version control | Git & GitHub |
-
----
-
-
-
-## ✅ Task Coverage
-
-<details>
-<summary><b>Click to see every task and where it is implemented</b></summary>
-
-| Part | Task | Done | Notebook |
-|---|---|:---:|---|
-| **A** | 1. Short notes (Data Analysis, Planning a DS project, Framing an ML problem) | ✅ | `01` |
-| **A** | 2. Tensors with NumPy (in-depth) | ✅ | `01` |
-| **B** | 3. CSV · JSON · SQL · API | ✅ | `02` |
-| **C** | 4. `.info()`, `.describe()` | ✅ | `02` |
-| **C** | 5. Pandas profiling / data-quality report | ✅ | `02` |
-| **C** | 6. Simple, Most-frequent, Missing-indicator + Random sample, KNN, MICE, Complete-case | ✅ | `02` |
-| **D** | 7. Z-score, IQR, Percentile, Winsorization | ✅ | `02` |
-| **E** | 8. Mixed variables, Date & Time | ✅ | `02` |
-| **E** | 9. Ordinal, Label, One-hot encoding | ✅ | `02` |
-| **E** | 10. Binning, Binarization, Quantile, K-Means binning | ✅ | `02` |
-| **F** | 11. Standardization, Normalization, Min-Max, MaxAbs, Robust | ✅ | `02` |
-| **G** | 12. FunctionTransformer, PowerTransformer, ColumnTransformer | ✅ | `02` |
-| **G** | 13. Debt-to-Income, Avg monthly transactions, Spending-to-Income | ✅ | `02` |
-| **H** | 14. Final cleaned & transformed dataset | ✅ | `02` |
-| **H** | 15. Summary report | ✅ | `Reports/final_report.md` |
-
-</details>
-
----
-
-## 📸 Screenshots
-
-> Add your own screenshots in the `Screenshots/` folder and link them here.
-
-| Notebook output | Profiling report | Final dataset |
-|---|---|---|
-| `![nb](Screenshots/notebook_output.png)` | `![profile](Screenshots/profiling_report.png)` | `![final](Screenshots/final_dataset.png)` |
 
 ---
 
