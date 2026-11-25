@@ -15,7 +15,7 @@
 ![Sources](https://img.shields.io/badge/Data_Sources-CSV_|_JSON_|_SQL_|_API-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
 
-<img src="assets/workflow.png" alt="workflow" width="95%"/>
+<img src="Assets/workflow.png" alt="workflow" width="95%"/>
 
 </div>
 
