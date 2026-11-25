@@ -1,0 +1,12 @@
+,roc_auc,separation,new_feature
+repayment_history,0.716,0.716,False
+debt_to_income,0.692,0.692,True
+credit_score,0.314,0.686,False
+disposable_income,0.343,0.657,True
+loan_amount,0.616,0.616,False
+annual_income,0.394,0.606,False
+spending_ratio,0.591,0.591,False
+age,0.457,0.543,False
+avg_monthly_transactions,0.516,0.516,True
+transaction_count,0.516,0.516,False
+tenure_months,0.513,0.513,False

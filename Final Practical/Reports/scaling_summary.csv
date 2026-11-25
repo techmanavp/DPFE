@@ -1,0 +1,36 @@
+,,mean,std,min,max
+Standardization (z-score),age,0.0,1.0005,-1.7278,3.2602
+Standardization (z-score),annual_income,0.0,1.0005,-1.3393,3.5818
+Standardization (z-score),loan_amount,-0.0,1.0005,-1.0656,3.82
+Standardization (z-score),credit_score,0.0,1.0005,-5.5961,2.4452
+Standardization (z-score),repayment_history,0.0,1.0005,-0.9011,7.4615
+Standardization (z-score),transaction_count,-0.0,1.0005,-2.3781,4.4403
+Standardization (z-score),spending_ratio,-0.0,1.0005,-1.4442,2.7797
+Min-Max,age,0.3464,0.2006,0.0,1.0
+Min-Max,annual_income,0.2722,0.2033,0.0,1.0
+Min-Max,loan_amount,0.2181,0.2048,0.0,1.0
+Min-Max,credit_score,0.6959,0.1244,0.0,1.0
+Min-Max,repayment_history,0.1078,0.1196,0.0,1.0
+Min-Max,transaction_count,0.3488,0.1467,0.0,1.0
+Min-Max,spending_ratio,0.3419,0.2369,0.0,1.0
+MaxAbs,age,0.5425,0.1404,0.3,1.0
+MaxAbs,annual_income,0.3019,0.195,0.0409,1.0
+MaxAbs,loan_amount,0.2399,0.1991,0.0279,1.0
+MaxAbs,credit_score,0.8032,0.0805,0.3529,1.0
+MaxAbs,repayment_history,0.1078,0.1196,0.0,1.0
+MaxAbs,transaction_count,0.3986,0.1355,0.0765,1.0
+MaxAbs,spending_ratio,0.3723,0.2259,0.0461,1.0
+Robust (median/IQR),age,-0.0021,0.756,-1.3077,2.4615
+Robust (median/IQR),annual_income,0.2144,0.9444,-1.0499,3.5955
+Robust (median/IQR),loan_amount,0.3435,1.0704,-0.7964,4.4303
+Robust (median/IQR),credit_score,-0.0152,0.8345,-4.6829,2.0244
+Robust (median/IQR),repayment_history,0.1465,0.7178,-0.5,5.5
+Robust (median/IQR),transaction_count,0.0888,0.7534,-1.7021,3.4326
+Robust (median/IQR),spending_ratio,0.2185,0.8331,-0.984,2.5329
+"Normalization (L2, row-wise)",age,0.0001,0.0,0.0,0.0004
+"Normalization (L2, row-wise)",annual_income,0.7793,0.1984,0.0835,0.9992
+"Normalization (L2, row-wise)",loan_amount,0.5444,0.2387,0.0391,0.9965
+"Normalization (L2, row-wise)",credit_score,0.0011,0.0008,0.0002,0.0068
+"Normalization (L2, row-wise)",repayment_history,0.0,0.0,0.0,0.0
+"Normalization (L2, row-wise)",transaction_count,0.0001,0.0001,0.0,0.0011
+"Normalization (L2, row-wise)",spending_ratio,0.0001,0.0001,0.0,0.0005

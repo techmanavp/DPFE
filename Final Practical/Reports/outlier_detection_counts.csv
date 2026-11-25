@@ -1,0 +1,4 @@
+,Z-score (abs z > 3),IQR (1.5 x IQR),Percentile (<1% or >99%)
+annual_income,13,51,20
+loan_amount,19,66,20
+credit_score,7,19,20

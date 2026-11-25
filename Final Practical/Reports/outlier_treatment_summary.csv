@@ -1,0 +1,4 @@
+,max_before,max_after,skew_before,skew_after,iqr_outliers_before,iqr_outliers_after
+annual_income,15321000.0,2185500.0,8.9,1.55,51,51
+loan_amount,6176300.0,1951300.0,4.62,1.94,66,66
+credit_score,1000.0,850.0,-0.03,-0.2,19,19
